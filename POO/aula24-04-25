@@ -1,0 +1,17 @@
+herança:
+é o metodo para criar uma hierarquia entre classes, para que uma classe nova (subclasse) possa herdar características de uma característica pai (superclasse)
+não é algo exclusivo entre classes, pode ser utilizado entre interfaces, componentes, etc
+a palavra *extend* é utilizada para fazer com que uma classe herde atributos de outra
+herança promove reuso, mas não é a única (é a pior) 
+
+método construtor é aquele responsável por instanciar o objeto e realizar a atribuição de valores aos atributos e a locação de memória
+a clausula super repassa os parametros exigidos pelo construtor de superclasse
+
+Encapsulamento: capacidade de um objeto restringir o acesso a determinadas propriedades
+em java o encapsulamento é realizado por meio de modificadores de visibilidade (são palavras reservadas q permitem aumentar e diminuir o nível de restrição de uma classe/objeto)
+
+modificadores de visibilidade:
+- public
+- private
+- protected
+- "package" (é a visibilidade padrão)
